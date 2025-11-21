@@ -1,5 +1,3 @@
-# SParameters_for_rectangularwaveguide
-Post‑processing pipeline for electromagnetic waveguide simulations. Loads an Elmer/VTK .vtu mesh with Poynting vectors, extracts input/output ports using PyVista, integrates power flow over each port, computes S‑parameters (S11, S21, loss in dB) and visualizes port fields.
 # Waveguide S‑Parameter Calculator (PyVista Post‑Processing)
 
 This repository contains a Python script for post‑processing 3D electromagnetic simulations of waveguides (e.g. coplanar waveguides) exported as VTK/VTU files. It uses **PyVista** to extract port surfaces, integrates the **Poynting vector** over these ports, and computes power‑based S‑parameters.
